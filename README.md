@@ -1,5 +1,5 @@
 # Introduction
-In this repository, I sampled the usage of AudioFolder function with data-loader and a full convolutional classifier for classical music. The AudioFolder function was included in "dataloader.py". And "batchspliter.py" can transfer normal music files to short audio splits which matches the format as training dataset.
+In this repository, I inplementd AudioFolder function with data-loader and a full convolutional classifier for classical music. The AudioFolder function was included in "dataloader.py". And "batchspliter.py" can transfer normal music files to short audio splits which matches the format as training dataset.
 
 Regretfully, after splitting audio, you need to manually select training data and testing data and put them in order like "train/a", "train/b", "test/a", and "test/b".
 
